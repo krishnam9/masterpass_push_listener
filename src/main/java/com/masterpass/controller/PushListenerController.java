@@ -34,4 +34,14 @@ public class PushListenerController {
 
 	}
 	
+	@RequestMapping(value = "/listener", method = RequestMethod.POST)
+	public ResponseEntity<Object> postListener() {
+		
+		System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "debug");
+		System.out.println("START: Masterpass Push Listner in POST /listener...............");
+		//System.out.println("Message received POST:"+message);
+				
+		return new ResponseEntity<Object>(message, HttpStatus.OK);
+
+	}
 }
