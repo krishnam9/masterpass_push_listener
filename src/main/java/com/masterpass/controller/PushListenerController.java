@@ -41,7 +41,7 @@ public class PushListenerController {
 		System.out.println("START: Masterpass Push Listner in POST /listener...............");
 		//System.out.println("Message received POST:"+message);
 				
-		return new ResponseEntity<Object>(message, HttpStatus.OK);
+		return new ResponseEntity<Object>("/listener called on POST", HttpStatus.OK);
 
 	}
 }
