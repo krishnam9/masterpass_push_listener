@@ -29,9 +29,9 @@ div {
 
 		<h2>v7 Standard Checkout<br><br></h2>
 
-		<script type="text/javascript" src="https://sandbox.masterpass.com/integration/merchant.js"></script>
+		<!-- <script type="text/javascript" src="https://sandbox.masterpass.com/integration/merchant.js"></script> -->
 			
-		<!-- <script type="text/javascript" src="https://masterpass.com/integration/merchant.js"></script> -->
+		<script type="text/javascript" src="https://masterpass.com/integration/merchant.js"></script>
 			
 		<a href="#" onClick="launchUI()"> 
 			<img src="https://www.mastercard.com/mc_us/wallet/img/en/US/mcpp_wllt_btn_chk_147x034px.png" />
