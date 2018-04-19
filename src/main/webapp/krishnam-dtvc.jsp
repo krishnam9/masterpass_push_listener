@@ -24,7 +24,8 @@
 		        "amount": "789.53",
 		        "currency": "USD",
 		        "cartId": "6a7804b7-6e6f-4ec3-ac1c-f79517040829",
-				"cvc2Support": true
+			"cvc2Support": true,
+			"validityPeriodMinutes":30
 			});
 		}
 	</script>
